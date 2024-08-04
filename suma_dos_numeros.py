@@ -12,15 +12,15 @@ def sumar():
     resultado.config(text= f'La suma es : {suma}')
 
 
-
-primer_numero_entrada = tk.Entry(root 
-                                 )
+# Cambiando la fuente y el tamanio 
+primer_numero_entrada = tk.Entry(root, 
+                                 font= ("Times", 20))
 primer_numero_entrada.pack()
 
 
-
-segundo_numero_entrada = tk.Entry(root 
-                                  )
+# Cambiando la fuente y el tamanio
+segundo_numero_entrada = tk.Entry(root, 
+                                  font= ("Times", 20))
 segundo_numero_entrada.pack()
 
 boton = tk.Button(root,
