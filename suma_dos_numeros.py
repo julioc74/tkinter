@@ -3,6 +3,7 @@ import tkinter as tk
 root = tk.Tk()
 root.geometry("400x400")
 root.resizable(height= "False", width= "False")
+root.title("Suma de dos numeros")
 
 def sumar():
     primer_numero = int(primer_numero_entrada.get())
