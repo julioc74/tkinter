@@ -12,8 +12,22 @@ etiqueta_dolares = tk.Label(root,
                             fg= "yellow")
 etiqueta_dolares.pack()
 
+
 entrada_dolares = tk.Entry(root, 
-        font= ("Arial", 20) )
+                           font= ("Arial", 20))
 entrada_dolares.pack()
+
+etiqueta_cambio = tk.Label(root,
+                          font= ("Arial", 20),
+                          text= "Ingrese precio del dolar",
+                          bg= "blue",
+                          fg= "yellow")
+
+etiqueta_cambio.pack()
+
+entrada_cambio = tk.Entry(root,
+                          font= ("Arial", 20))
+entrada_cambio.pack()
+
 
 root.mainloop()
